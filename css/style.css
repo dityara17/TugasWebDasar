@@ -1,0 +1,230 @@
+body{
+	padding:0px;
+	margin:0px;
+	font-family:Segoe UI;
+	overflow-x:hidden;
+}
+*,
+*:after,
+*:before{
+	box-sizing:border-box;
+}
+.row{
+	margin: 0px -15px;
+}
+.row:after{
+	clear:both;
+}
+.row:after,
+.row:before{
+	content: ' ';
+	display:flex;
+}
+.col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12
+{
+	float:left;
+	padding:0px 15px;
+}
+.col-1{
+	width:8.3333%;
+}
+.col-2{
+	width:16.6667%;
+}
+.col-3{
+	width:25%;
+}
+.col-4{
+	width:33.3333%;
+}
+.col-5{
+	width:41.66667%;
+}
+.col-6{
+	width:50%;
+}
+.col-7{
+	width:58.3333%;
+}
+.col-8{
+	width:66.66667%;
+}
+.col-9{
+	width:75%;
+}
+.col-10{
+	width:83.3333%;
+}
+.col-11{
+	width:91.66667%;
+}
+.col-12{
+	width:100%;
+}
+.container{
+	padding-left:25px;
+	padding-right:25px;
+	margin-right:auto;
+	margin-left:auto;
+}
+header{
+	position:relative;
+	padding:20px 0;
+	font-size: 21px;
+	padding-left:45px;
+	padding-right:45px;
+	box-shadow:0 0 20px rgba(0,0,0,0.2);
+}
+header .logo{
+	float:left;
+	max-width:50%;
+	padding:5px;
+}
+header .logo img{
+
+}
+header .menu{
+	float:right;
+}
+header .menu ul{
+	margin:0px;
+	padding:0px;
+	position:relative;
+}
+header .menu ul li{
+	display:inline-block;
+	padding:15px;
+	cursor:pointer;
+	font-size:15px;
+	border-bottom:2px solid transparent;
+}
+header .menu ul li a{
+	text-decoration:none;
+	color:#000;
+}
+header .menu ul li:hover{
+	border-bottom:2px solid #000;
+}
+.hero {
+	background: url('../images/splash.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
+	padding: 180px 0px;
+	margin: 0 auto;
+}
+.hero h1,.herolear h1{
+	color:  #fff;
+	font-size: 5em;
+}
+.hero span, .herolear span{
+	background: #ffb606;
+    padding-left: 13px;
+    padding-right: 13px;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-weight: normal;
+}
+.why{
+	background: #e7e7e7;
+}
+.why .box{
+	text-align: center;
+}
+.why .box i{
+	color: #ffb606;
+	font-size: 41px;
+}
+.why .box h3{
+	font-size: 21px;
+	font-weight: 600;
+}
+.kelas .box {
+	padding: 20px;
+	background: #f7f7f7;
+	text-align: center;
+}
+.kelas .box img {
+	width: 100%;
+	height: 280px;
+	object-fit: cover;
+}
+.why h3, .kelas h3, .testy h3{
+	font-size: 31px;
+}
+.kelas .box h3{
+	font-size: 21px;
+	font-weight: 600;
+}
+.kelas .box .btn{
+	padding-top: 25px;
+}
+.kelas .box .btn a{
+	background: #ffb606;
+	color: #fff;
+	padding: 12px 25px;
+}
+a{text-decoration: none;}
+.why, .kelas,.testy{
+	padding: 40px 0;
+}
+.footer{
+	background: #1a1a1a;
+	color: #fff;
+	height: 100px;
+	line-height: 100px;
+	text-align: right;
+	margin-top: -20px;
+	padding-right: 50px;
+}
+.testy{
+	background: #ffb606;
+	color: #fff;
+	text-align: center;
+}
+.testy img{
+	border-radius: 50%;
+	width: 130px;
+	border: 2px solid #fff;
+	height: 130px;
+}
+.testy .text h3{
+	font-size: 18px;
+	margin: 0;
+	font-weight: 600;
+}
+.herolear {
+	background: url('../images/splash.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
+	padding: 110px 0px;
+	margin: 0 auto;
+}
+input, select, textarea{
+	width: 100%;
+	border: 1px solid #e7e7e7;
+	margin-bottom: 10px;
+	padding: 12px 8px;
+	outline: none;
+}
+form{
+	padding: 0 20px;
+}
+button{
+	cursor: pointer;
+	background: #ffb606;
+	padding: 12px 16px;
+	color: #fff;
+	border: none;
+}
+
+.alert{
+	background: #ffb606;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
